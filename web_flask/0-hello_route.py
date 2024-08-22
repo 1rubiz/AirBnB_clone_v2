@@ -15,6 +15,7 @@ def hello_hbnb():
     """Displays 'Hello HBNB!'"""
     return "Hello HBNB!"
 
+
 @app.route("/airbnb-onepage", strict_slashes=False)
 def hbnb():
     """Displays 'Hello HBNB!'"""
